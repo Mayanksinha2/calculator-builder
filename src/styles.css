@@ -1,0 +1,12 @@
+.sidebar, .calculator {
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .draggable-item, .calculator-item {
+    width: 50px;
+    text-align: center;
+    font-size: 18px;
+  }
+  
