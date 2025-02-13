@@ -1,13 +1,35 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "https://cdn.jsdelivr.net/npm/tailwindcss@3.3.5/base.min.css";
+@import "https://cdn.jsdelivr.net/npm/tailwindcss@3.3.5/components.min.css";
+@import "https://cdn.jsdelivr.net/npm/tailwindcss@3.3.5/utilities.min.css";
+
+@import './tailwind.css';
 
 html {
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .dark {
-  background-color: #0b0b0b;
+  background-color: #0b0b0b; 
   color: #ffffff;
-}
+} 
+/* body {
+  font-family: 'Poppins', sans-serif;
+  background: #1e1e2f;
+  color: white;
+}  */
+
+/* button {
+  font-size: 18px;
+  padding: 10px 20px;
+  margin: 5px;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+} */
+
+/* button:hover {
+  background-color: #45a049;
+} */
+
 

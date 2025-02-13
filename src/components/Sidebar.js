@@ -8,7 +8,7 @@ const Sidebar = ({ items }) => {
         <div
           ref={provided.innerRef}
           {...provided.droppableProps}
-          className="w-1/4 bg-gray-900 text-white p-6 shadow-lg flex flex-col gap-2"
+          className="w-1/4 bg-gray-900 text-black p-6 shadow-lg flex flex-col gap-2"
         >
           <h2 className="text-2xl font-bold mb-4">Components</h2>
           {items.map((item, index) => (
